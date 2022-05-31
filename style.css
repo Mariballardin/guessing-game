@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+
+}
+
+:root {
+  font-size: 62.5%;
+
+}
+
+body {
+  background: hsl(250, 54%, 38%);
+  
+}
+h1 {
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 5rem;
+  margin-top: 300px;
+
+  align-items: center;
+  text-align: center;
+
+}
+h1:hover {
+  cursor: pointer;
+  font-size: 60px;
+  transition-property:font-size;
+  transition-duration: 2s;
+
+
+}
